@@ -15,23 +15,23 @@ const qBank = [
   },
   {
     question:
-      `Est-ce que React est une librairie JS pour développer des Web App côté Front ?`,
+      `La fonction ReactDOM.start() vous permet de rendre du contenu React dans une page HTML ??`,
     answers: [`Vrai`, `Faux`],
-    correct: `Vrai`,
+    correct: `Faux`,
     questionId: `3`
   },
   {
     question:
-      `Est-ce que JS est un langage purement fonctionnel ?`,
+      `React est une bibliothèque JavaScript front-end développée par Facebook en 2011.`,
     answers: [`Vrai`, `Faux`],
-    correct: `Faux`,
+    correct: `Vrai`,
     questionId: `4`
   },
   {
     question:
-      `Est-ce que JS est un langage purement fonctionnel ?`,
+      `React utilise le DOM virtuel au lieu du DOM réel`,
     answers: [`Vrai`, `Faux`],
-    correct: `Faux`,
+    correct: `Vrai`,
     questionId: `5`
   }
 ];
