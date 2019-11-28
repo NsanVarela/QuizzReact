@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import "./assets/style.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class Quizz extends Component {
+    render() {
+        return (
+            <div className="container">
+                <div className="title">Quizz</div>
+            </div>
+        );
+    }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Quizz />, document.getElementById("root"));
